@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About Me Portfolio</title>
+    <link rel="stylesheet" href="kiel.css" />
+</head>
+<body>
+    <style> /* ===== Basic Reset ===== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+ 
+body {
+    font-family: Arial, sans-serif;
+    background: #0f1624;
+    color: #fff;
+}
+ 
+/* ===== Navbar ===== */
+header {
+    width: 100%;
+    background: #0d1320;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    padding: 20px 0;
+}
+ 
+.navbar {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ 
+.logo {
+    font-size: 28px;
+    font-weight: bold;
+}
+ 
+.logo span {
+    color: #f1c40f;
+}
+ 
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 35px;
+}
+ 
+.nav-links li a {
+    color: #ffffffc7;
+    font-size: 15px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+ 
+.nav-links li a:hover {
+    color: #f1c40f;
+}
+ 
+/* ===== Hero Section ===== */
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 150px 10% 80px 10%;
+}
+ 
+.hero-text {
+    max-width: 550px;
+}
+ 
+.welcome {
+    color: #f1c40f;
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+ 
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+ 
+.desc {
+    line-height: 1.6;
+    font-size: 16px;
+    margin-bottom: 30px;
+    color: #cfd3da;
+}
+ 
+.btn {
+    background: #f1c40f;
+    color: #000;
+    padding: 12px 25px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+ 
+.btn:hover {
+    background: #d4ac0d;
+}
+ 
+/* Hero Image */
+.hero-img img {
+    width: 330px;
+    border-radius: 18px;
+    object-fit: cover;
+}
+ 
+/* ===== Other Sections ===== */
+.section {
+    height: 400px;
+    padding: 120px 10%;
+    border-bottom: 1px solid #1c2538;
+}
+ 
+.section h2 {
+    color: #f1c40f;
+    font-size: 32px;
+}
+</style>
+ 
+<!-- ===== Navigation Bar ===== -->
+<header>
+    <nav class="navbar">
+        <div class="logo">Ezekiel<span>Portfolio.</span></div>
+ 
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#resume">Resume</a></li>
+        </ul>
+    </nav>
+</header>
+ 
+<!-- ===== Hero Section ===== -->
+<section id="home" class="hero">
+    <div class="hero-text">
+        <p class="welcome">Hello, Welcome</p>
+        <h1>I’m Ezekiel Mendiola</h1>
+        <p class="desc">
+        </p>
+ 
+        <a href="#contact" class="btn">Contact Us</a>
+    </div>
+ 
+    <div class="hero-img">
+        <img src="kiiell.jpg" alt="Ezekiel Pic">
+        <!-- Replace with your image -->
+    </div>
+</section>
+ 
+<!-- ===== Placeholder Sections ===== -->
+ 
+<section id="about" class="section"> <h2>About</h2>
+<p class="desc">
+            Hi! I’m a Bachelor of Science in Information Technology (BSIT) student with a passion for technology, 
+            problem-solving, and continuous learning. I enjoy exploring web development, software solutions, 
+            and IT systems that help make daily tasks easier and more efficient.
+
+I’m currently building my skills in programming, database management, and system design, 
+and I’m always excited to learn new tools and technologies. My goal is to grow as an IT professional and 
+contribute to real-world projects that create impact.
+        </p>
+</section>
+<section id="resume" class="section"> <h2>Resume</h2>
+<p class="desc">
+            	<a href="file:///C:/Users/visitors/Downloads/Resume%20(2).pdf">Click to see my Resume</a>
+        </p>
+</section>
+<section id="contact" class="section">
+    <h2>Contact</h2>
+    <p class="desc">
+        Whether you’re looking to start a project, collaborate, or just say hello,
+        my inbox is always open. Feel free to reach out anytime!
+    </p>
+ 
+    <div class="contact-info">
+        <p><strong>Email:</strong> ezekielmendiola@example.com</p>
+        <p><strong>Phone:</strong> +63 912 345 6789</p>
+        <p><strong>Location:</strong> Philippines</p>
+    </div>
+ 
+</section>
+ 
+ 
+</body>
+</html>
