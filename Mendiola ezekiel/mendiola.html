@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Ezekiel Mendiola</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  margin: 0;
+}
+
+/* Header */
+header {
+  padding: 60px;
+  text-align: center;
+  background: #F6B1CE;
+  color: white;
+}
+
+/* Top navigation bar */
+.navbar {
+  display: flex;
+  background-color: #F875AA;
+}
+
+/* Navigation bar links */
+.navbar a {
+  color: white;
+  padding: 14px 20px;
+  text-decoration: none;
+  text-align: center;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+  background-color: 
+#FF8040;
+  color: black;
+}
+
+/* Column container */
+.container {  
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Sidebar/left column */
+.side {
+  flex: 30%;
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+/* Main column */
+.main {
+  flex: 70%;
+  background-color: white;
+  padding: 20px;
+}
+
+/* Fake image, just for this example */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Footer */
+footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+}
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+  .container, .navbar {   
+    flex-direction: column;
+  }
+}
+/* Social media icons */
+.social-icons {
+  margin-top: 15px;
+}
+ 
+.social-icons a {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  margin: 0 10px;
+  background-color: #f363f8;
+  color: #ffffff;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 40px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+  border: 1px solid #f503ac;
+}
+ 
+.social-icons a:hover {
+  background-color: #0004ff;
+  color: #1900ff;
+}
+</style>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+
+<!-- Note -->
+<div style="background:hwb(305 0% 45%);padding:5px;text-align:center;">
+  <h4>Resize the browser window to see the responsive effect.</h4>
+</div>
+
+<!-- Header -->
+<header>
+  <h1>Ezekiel Mendiola</h1>
+  <p>With a <b>flexible</b> layout.</p>
+</header>
+
+<!-- Navigation Bar -->
+<div class="navbar">
+  <a href="#Home">Home</a>
+  <a href="#">Link</a>
+  <a href="#">Link</a>
+  <a href="#Footer">Footer</a>
+</div>
+
+<!-- Content Container -->
+ <Home id="Home">
+<div class="container">
+  <div class="side">
+    <h2>About Me</h2>
+    <h5>Photo of me:</h5>
+    <img src="Ezekiel.jfif" alt="Ezekiel Mendiola's Profile Photo" style="width: 100%; height: auto;">
+    <p>I am Ezekiel, studying at National University Fairview, an IT student, second year college.</p>
+    <h3>My hobbies</h3>
+    <p>Picture taking</p>
+    <img src="Ezekiel rides.jfif" alt="Ezekiel Mendiola's Profile Photo" style="width: 90%; height: 20%;"><br>
+    <p>Rides with Friends</p>
+    <img src="rides.jfif" alt="Ezekiel Mendiola's Profile Photo" style="width: 100%; height: 20%;"><br>
+    <p>Basketball</p>
+    <img src="Image (1).jfif" alt="Ezekiel Mendiola's Profile Photo" style="width: 90%; height: auto;">
+  </div>
+  <div class="main">
+    <h2>My Therapy!</h2>
+    <h5>Title description, Oct 7, 2025</h5>
+    <img src="vape.jpg" alt="Ezekiel Mendiola's Profile Photo" style="width: 50%; height: auto;">
+    <p><b>Vape Save my Life</b></p>
+    <br> 
+  </div>
+</div>
+
+<!-- Footer -->
+<footer>
+    <footer id="Footer">
+  <h2>Footer</h2>
+  <div class="social-icons">
+    <a href="https://www.facebook.com/share/1DaJiG4f7z/?mibextid=wwXIfr" title="Facebook"><i class="fab fa-facebook-f"></i></a>
+    <a href="https://www.instagram.com/2ezenotfound?igsh=dTF4dmpncTQ5ZTY1&utm_source=qr" title="Instagram"><i class="fab fa-instagram"></i></a>
+    <a href="https://github.com/Ezekielsy" title="GitHub"><i class="fab fa-github"></i></a>
+  </div>
+</footer>
+
+</body>
+</html>
+
+<!--#crumbs=
+<div id='breadcrumb'>
+<ul>
+<li><a href='/default.asp'>Home</a></li>
+<li><a href='/css/default.asp'>CSS</a></li>
+<li><a href='/css/css3_flexbox.asp'>CSS Flexbox</a></li>
+<li><a href='/css/css3_flexbox_responsive.asp'>Flex Responsive</a></li>
+<li>Tryit: Responsive website using flexbox</li>
+</ul>
+</div>
+-->
